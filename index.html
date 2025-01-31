@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            align-items: center;
+            justify-content: center;
+            background: radial-gradient(rgb(77, 70, 70),black);
+        }
+        #timeInput{
+            transform: scale(2);
+            width: 100px;
+
+        }
+        .butt{
+            transform: scale(2);
+            width: 100px;
+
+        }
+    </style>
+</head>
+<body>
+    <input type="time" name="time" id="timeInput">
+    <button id="submit" class="butt">Set Alarm</button>
+    <script src="script.js"></script>
+</body>
+</html>
